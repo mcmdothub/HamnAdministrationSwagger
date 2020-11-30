@@ -1,0 +1,56 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>HamnAdministration</name>
+    </assembly>
+    <members>
+        <member name="M:HamnAdministration.Controllers.ParkeringController.SkapaParkering(HamnAdministration.Meddelanden.Requests.SkapaParkeringRequest)">
+            <summary>
+            Skapa en ny parkeringsplats med ett totalt antal parkeringsplatser
+            </summary>
+            <returns>A string status</returns>
+        </member>
+        <member name="M:HamnAdministration.Controllers.ParkeringController.GetAllParkeringInformations">
+            <summary>
+            Få alla tillgängliga parkeringsområden
+            </summary>
+            <returns>A string status</returns>
+        </member>
+        <member name="M:HamnAdministration.Controllers.ParkeringController.GetTotalLedigaPlatserQuery">
+            <summary>
+            Få totalt tillgängliga lediga parkeringsplatser
+            </summary>
+            <returns>A string status</returns>
+        </member>
+        <member name="M:HamnAdministration.Controllers.ParkeringController.GetParkeringInformation(System.String)">
+            <summary>
+            Kontrollera all information för en specifik parkeringsplats
+            </summary>
+            <returns>A string status</returns>
+        </member>
+        <member name="M:HamnAdministration.Controllers.ParkeringController.OpenParkering(System.String)">
+            <summary>
+            Öppna en hel parkeringsplats
+            </summary>
+            <returns>A string status</returns>
+        </member>
+        <member name="M:HamnAdministration.Controllers.ParkeringController.SlutParkering(System.String)">
+            <summary>
+            Stäng en hel parkeringsplats
+            </summary>
+            <returns>A string status</returns>
+        </member>
+        <member name="M:HamnAdministration.Controllers.ParkeringController.TaParkeringsPlatsen(System.String,System.Int32,HamnAdministration.Controllers.ParkeringController.ParkeringType)">
+            <summary>
+            Boka en parkeringsplats och välj var
+            </summary>
+            <returns>A string status</returns>
+        </member>
+        <member name="M:HamnAdministration.Controllers.ParkeringController.LamnaParkeringPlats(System.String,System.Int32)">
+            <summary>
+            Lämna en parkeringsplats och välj var
+            </summary>
+            <returns>A string status</returns>
+        </member>
+    </members>
+</doc>
